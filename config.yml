@@ -1,0 +1,72 @@
+blockCmd: # Алиасы блокает автоматически (в случае если это зарегистрирована команда)
+  - "plugman"
+  - "paper"
+  - "pl"
+
+waitUse:
+  heal: 60 # seconds
+
+customCommand:
+  links:
+    permission: "aviforce.links"
+    actions:
+    - "message: &a &f"
+    - "message: &f &x&e&2&9&c&4&9&lA&x&e&1&a&2&4&c&lV&x&e&0&a&8&4&f&lI&x&d&f&a&e&5&2&lF&x&d&d&b&4&5&4&lO&x&d&c&b&a&5&7&lR&x&d&b&c&0&5&a&lC&x&d&a&c&6&5&d&lE"
+    - "message: &a &f"
+    - "message: &f  &8- &7Наши оффициальные &bсоциальные &7сети:"
+    - "message: &a &f"
+    - "message: &f  &8- &7Группа вконтакте: &evk.com/aviforce_ru"
+    - "message: &f  &8- &7Сайт проекта: &ewww.AviForce.su"
+    - "message: &f  &8- &7Рума дискорда: &ediscord.gg/PcSMcqNzZk"
+    - "message: &a  &8- &7Поддержка: &evk.me/aviforce_ru"
+    - "message: &a &f"
+    - "message: &f  &8- &7Привязка &6вашего &7игрового &7аккаунта:"
+    - "message: &a &f"
+    - "message: &f  &8- &7Бот вконтакте: &evk.me/aviforce_ru"
+    - "message: &f  &8- &7Бот телеграм: &et.me/aviforce_bot"
+    - "message: &a &f"
+    - "message: &f  &8- &7Ссылку можно &aоткрыть &7при &dклике &7на нее!"
+    - "message: &a &f"
+    - "sound: ENTITY_VILLAGER_WORK_CARTOGRAPHER 0.5 1"
+  commandlinenew:
+    permission: ""
+    actions:
+    - "message: &a &f"
+    - "message: &f &x&e&2&9&c&4&9&lA&x&e&1&a&2&4&c&lV&x&e&0&a&8&4&f&lI&x&d&f&a&e&5&2&lF&x&d&d&b&4&5&4&lO&x&d&c&b&a&5&7&lR&x&d&b&c&0&5&a&lC&x&d&a&c&6&5&d&lE"
+    - "message: &a &f"
+    - "message: &f  &8- &7Зачем тебе эта &cкоманда&7? Лучше узнай"
+    - "message: &a  &8- &7множество &6интересных &7вещей которые"
+    - "message: &a  &8- &7помогут тебе на &aнашем &7сервере!"
+    - "message: &a &f"
+    - "message: &f  &8- &7Узнать &dмногое &7о сервере: &e/help"
+    - "message: &a &f"
+    - "sound: ENTITY_VILLAGER_WORK_CARTOGRAPHER 0.5 1"
+
+motd: true
+sounds:
+  join:
+    sound: "ENTITY_PLAYER_LEVELUP" # if empty it's disabled
+    pitch: 1
+    volume: 0.5 # 0.00 - 1.00
+
+messages:
+  blockedCmd: "&cДанная команда заблокирована!"
+  wait: "&cКоманда будет доступна через: {time}"
+  noPerm: |-
+        &f
+        &f &#e29c49&lA&#e1a24c&lV&#e0a84f&lI&#dfae52&lF&#ddb454&lO&#dcba57&lR&#dbc05a&lC&#dac65d&lE
+        &a &f
+        &f  &8- &7У вас &cнедостаточно &7прав!
+        &a &b
+  reloaded: "&aКонфигурация была перезагружен"
+  motd:
+    - ""
+    - "   &7Приветствуем тебя &a%player_name%"
+    - "   &7Ты сейчас находишься на &6Гриферском-1"
+    - "   &7Спасибо что ты выбрал наш &dсервер&7!"
+    - "   &7Промокодик &dFORCE &7на целых &c40%"
+    - " &6"
+    - "   &7Группа вконтакте: &evk.com/AviForce_ru"
+    - "   &7Сайт проекта: &ewww.AviForce.su"
+    - "   &7Рума дискорда: &ediscord.gg/PcSMcqNzZk"
+    - ""
