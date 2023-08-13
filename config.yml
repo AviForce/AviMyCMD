@@ -1,4 +1,4 @@
-blockCmd: # Алиасы блокает автоматически (в случае если это зарегистрирована команда)
+blockCmd:
   - "plugman"
   - "paper"
   - "pl"
@@ -45,9 +45,9 @@ customCommand:
 motd: true
 sounds:
   join:
-    sound: "ENTITY_PLAYER_LEVELUP" # if empty it's disabled
+    sound: "ENTITY_PLAYER_LEVELUP"
     pitch: 1
-    volume: 0.5 # 0.00 - 1.00
+    volume: 0.5
 
 messages:
   blockedCmd: "&cДанная команда заблокирована!"
